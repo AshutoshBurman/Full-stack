@@ -1,5 +1,13 @@
 ## sequenceDiagram
-```    participant browser
+```mermaid 
+graph TD;
+    A-->B;
+    A-->c;
+    B-->D;
+    C-->D;
+```
+
+ participant browser
     participant server
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
