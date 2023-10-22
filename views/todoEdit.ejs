@@ -1,0 +1,120 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Todo App</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <link rel="stylesheet" href="/static/stylesheets/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Candal|Chewy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+        crossorigin="anonymous">
+</head>
+<body>
+    <div class="todo-container">
+        <h2>To-Do List</h2>
+        <div class="todo">
+            <form action="" method="POST" class="todo-header">
+                <input type="text" name="content">
+                <button type="submit"><span class="fas fa-plus"></span></button>
+            </form>
+            <ul class="todo-list">
+                <% todoTasks.forEach(details => { %>
+                    <% if (details._id == idTask) { %>
+                    <li class="todo-list-item">
+                        <form action="/edit/<%= details._id %>" method="POST">
+                            <input type="text" value="<%= details.content %>" name="content">
+                            <button type="submit">Confirm</button>
+                            <a href="/" class="cancel">Cancel</a>
+                        </form>
+                    </li>
+                <% } else { %>
+                    <li class="todo-list-item">
+                        <div class="todo-list-item-name"><%= details.content %></div>
+                        <a href="/edit/<%= details._id %>" class="edit"> <span class="fas fa-edit"></span>
+                        </a>
+                        <a href="/remove/<%= details._id %>" class="remove"> <span class="fas fa-times"></span>
+                        </a>
+                    </li>
+                    <% } %>
+                <% }) %>
+            </ul>
+        </div>
+    </div>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo App</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <link rel="stylesheet" href="/static/stylesheets/style.css" type="text css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Candal|Chewy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+        crossorigin="anonymous">
+    <style>
+        .confirm-button {
+            background-color: yellow;
+            border: none;
+            color: black;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="todo-container">
+        <h2>To-Do List</h2>
+        <div class="todo">
+            <form action="" method="POST" class="todo-header">
+                <input type="text" name="content" id="contentInput">
+                <button type="submit" class="add-button"><span class="fas fa-plus"></span></button>
+            </form>
+            <ul class="todo-list">
+                <% todoTasks.forEach(details => { %>
+                    <li class="todo-list-item">
+                        <div class="todo-list-item-name"><%= details.content %></div>
+                        <a href="#" class="edit" onclick="editTask('<%= details.content %>')"><span class="fas fa-edit"></span></a>
+                        <a href="/remove/<%= details._id %>" class="remove"><span class="fas fa-times"></span></a>
+                        <form action="/edit/<%= details._id %>" method="POST" style="display: none;">
+                            <input type="text" value="<%= details.content %>" name="content" id="editInput">
+                            <button type="submit" class="confirm-button" style="background-color: yellow;"><span>Save</span></button>
+                            <a href="/" class="edit-cancel"><span class="fas fa-times"></span></a>
+                        </form>
+                    </li>
+                <% }) %>
+            </ul>
+        </div>
+    </div>
+    
+    <script>
+        function editTask(content) {
+            const contentInput = document.getElementById("contentInput");
+            const addBtn = document.querySelector(".add-button");
+            const editInput = document.getElementById("editInput");
+            const confirmButton = document.querySelector(".confirm-button");
+            const cancelButton = document.querySelector(".edit-cancel");
+            
+            contentInput.value = content;
+            contentInput.disabled = false;
+            addBtn.style.backgroundColor = "yellow";
+            editInput.value = content;
+            confirmButton.style.display = "inline-block";
+            cancelButton.style.display = "inline-block";
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
