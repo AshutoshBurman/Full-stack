@@ -1,0 +1,262 @@
+
+
+
+
+@media (max-width:600px) {
+
+    #nav {
+        /* height: 100px; */
+        width: 100%;
+        /* background-color: burlywood; */
+        position: fixed;
+        z-index: 3;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    #nav #nav-part2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    #links {
+        padding: 10px;
+        display: none;
+    }
+
+    #nav-part1 {
+        /* background-color: RED; */
+        height: 67px;
+        overflow: hidden;
+    }
+
+    #nav-part1 svg {
+        display: block;
+        height: 67px;
+        width: 80px;
+    }
+    #nav #twogoodlogo{
+        height: 40px;
+        margin-left: -20px;
+    }
+
+    #icons {
+        padding: 7px;
+        border-radius: 50px;
+        background-color: #F7F7F7;
+    }
+
+    #nav-part2 #icons i {
+        font-size: 15px;
+        margin: 0 20px;
+        font-weight: 100;
+    }
+
+    #page1 {
+        /* background-color: red; */
+        min-height: 70vh;
+        width: 100%;
+        padding: 0 3vw;
+        padding-top: 25vh;
+
+    }
+
+    #page1 h1 {
+        font-size: 15.5vw;
+        letter-spacing: -3px;
+    }
+
+    #video-container {
+        height: 25vh;
+        margin-top: 3vw;
+    }
+
+    #video-container #play {
+        padding: 9.5vw 7.2vw;
+        font-size: 4.5vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        opacity: 1;
+        scale: 1;
+        transform: translate(-50%, -50%);
+    }
+
+    #page2 {
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 5vw 3vw;
+        flex-direction: column;
+        justify-content: space-between;
+        /* background-color: red; */
+    }
+
+    #page2 .elem {
+        height: 100vh;
+        width: 100%;
+        /* background-color: red; */
+        overflow: hidden;
+        margin-bottom: 3vw;
+    }
+
+    #page2 .elem .dets {
+        height: 40px;
+        border-radius: 50px;
+        width: 70%;
+        position: absolute;
+        z-index: 2;
+        background-color: rgb(229, 156, 186);
+
+    }
+
+    #page3 {
+        min-height: 120vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .child {
+        height: 54vh;
+        width: 88vw;
+        /* background-color: red; */
+        /* border: 2px solid #000; */
+        position: relative;
+        padding: 15vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .child img {
+        height: 100%;
+    }
+
+}
+
+
+/* Menu */
+
+
+#menuBar {
+    position: relative;
+    object-fit: cover;
+    display:flex;
+}
+
+#menuBar img{
+    z-index: 100;
+    object-fit:cover;
+    position: fixed;
+
+}
+
+.tablink{
+    color:black;
+}
+/* Nav bar-color dark mode*/
+
+
+
+
+
+/* Manu page */
+
+#menuPage {
+    position:fixed;
+    font-size: 33px;
+    font-weight: 800;
+    font-family: Futura Now Headline;
+    text-transform: uppercase;
+    text-align: right;
+    top:31%;
+    left:79%;
+    flex-direction: column;
+    line-height: 8.5vh;
+    text-align: right;
+    color:F7F7F7;
+    display: flex;
+    color: #fff;
+    z-index: 10;
+}
+
+/* footer of a menu page */
+.footer{
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    top:80%;
+    line-height:2.2vh;
+    margin-left: 26px; 
+    z-index: 10; 
+    color: #fff; 
+    animation-name: footer;
+    animation: footer 2s ease forwards;
+}
+
+.dark-mode{
+    color:white;
+}
+
+.footer1{
+    left:26%;
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    top:80%;
+    line-height:2.2vh;
+    margin-left: 26px;
+    z-index: 10; 
+    color:#fff;
+    animation-name: footer;
+    animation: footer 2s ease forwards;
+}
+
+.animate{
+    position:relative;
+    animation: animate 2s ease forwards;
+}
+
+.open{
+    position:relative;
+    animation: open 2s ease forwards; 
+}
+
+@keyframes animate {
+    20%{ top:100%;
+        opacity:0;
+    }
+    100%{
+        top:30%;
+        opacity:1;
+    }    
+}
+
+@keyframes footer {
+    30%{ top:100%;
+        opacity:0;
+    }
+    100%{
+        top:80%;
+        opacity:1;
+    }    
+}
+
+
+@keyframes open {
+    0% {top:-100%;}
+    100% {top:0%;
+    opacity: 5;}  
+} 
+
+/*# sourceMappingURL=/main.af46ece4.css.map */
