@@ -9,6 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bin" : {
+    "execute" : "index.html"
+  },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.10.3",
     "parcel": "^2.10.3"
