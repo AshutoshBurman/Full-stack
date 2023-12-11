@@ -1,0 +1,119 @@
+
+
+
+
+
+
+/* Menu */
+
+
+#menuBar {
+    position: relative;
+    object-fit: cover;
+    display:flex;
+}
+
+#menuBar img{
+    z-index: 100;
+    object-fit:cover;
+    position: fixed;
+
+}
+
+.tablink{
+    color:black;
+}
+/* Nav bar-color dark mode*/
+
+
+
+
+
+/* Manu page */
+
+#menuPage {
+    position:fixed;
+    font-size: 33px;
+    font-weight: 800;
+    font-family: Futura Now Headline;
+    text-transform: uppercase;
+    text-align: right;
+    top:31%;
+    left:79%;
+    flex-direction: column;
+    line-height: 8.5vh;
+    text-align: right;
+    color:F7F7F7;
+    display: flex;
+    color: #fff;
+    z-index: 10;
+}
+
+/* footer of a menu page */
+.footer{
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    top:80%;
+    line-height:2.2vh;
+    margin-left: 26px; 
+    z-index: 10; 
+    color: #fff; 
+    animation-name: footer;
+    animation: footer 2s ease forwards;
+}
+
+.dark-mode{
+    color:white;
+}
+
+.footer1{
+    left:26%;
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    top:80%;
+    line-height:2.2vh;
+    margin-left: 26px;
+    z-index: 10; 
+    color:#fff;
+    animation-name: footer;
+    animation: footer 2s ease forwards;
+}
+
+.animate{
+    position:relative;
+    animation: animate 2s ease forwards;
+}
+
+.open{
+    position:relative;
+    animation: open 2s ease forwards; 
+}
+
+@keyframes animate {
+    20%{ top:100%;
+        opacity:0;
+    }
+    100%{
+        top:30%;
+        opacity:1;
+    }    
+}
+
+@keyframes footer {
+    30%{ top:100%;
+        opacity:0;
+    }
+    100%{
+        top:80%;
+        opacity:1;
+    }    
+}
+
+
+@keyframes open {
+    0% {top:-100%;}
+    100% {top:0%;
+    opacity: 5;}  
+} 
