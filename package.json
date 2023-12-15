@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "bin" : {
-    "execute" : parcel"
+    "execute" : "index.html"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.10.3",
