@@ -4,12 +4,7 @@
   "description": "",
   "source": "./index.html",
   "scripts": {
-    "dev": "parcel index.html",
-    "start": "parcel",
-    "build":"parcel build",
-
-    "predeploy": "rm -rf dist && parcel build ./*.html --public-url https://github.com/AshutoshBurman/Full-stack/tree/webpage_hosting",
-    "deploy": "gh-pages -d dist"
+  
   },
   "keywords": [],
   "author": "",
