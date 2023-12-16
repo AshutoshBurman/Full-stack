@@ -91,7 +91,7 @@
 50C:\Full-stack dev\Full-stack\node_modules\chokidar133467783348867265 1
 39C:\Full-stack dev\Full-stack\index.html133470265909462059 0
 108C:\Full-stack dev\Full-stack\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\css\syntaxes.json133467777115717066 0
-41C:\Full-stack dev\Full-stack\node_modules133470268411917304 1
+41C:\Full-stack dev\Full-stack\node_modules133471980825731980 1
 92C:\Full-stack dev\Full-stack\node_modules\@babel\code-frame\node_modules\ansi-styles\license133467777105602177 0
 104C:\Full-stack dev\Full-stack\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\010-introduction.md133467777120617191 0
 102C:\Full-stack dev\Full-stack\node_modules\csso\node_modules\css-tree\cjs\syntax\node\ClassSelector.cjs133467777113094986 0
@@ -109,8 +109,8 @@
 70C:\Full-stack dev\Full-stack\node_modules\posthtml-render\package.json133467777105659837 0
 102C:\Full-stack dev\Full-stack\node_modules\css-select\node_modules\entities\lib\esm\decode_codepoint.js133467777105971419 0
 82C:\Full-stack dev\Full-stack\node_modules\caniuse-lite\data\features\filereader.js133467777131568229 0
-46C:\Full-stack dev\Full-stack\package-lock.json133470268413214279 0
-41C:\Full-stack dev\Full-stack\package.json133470268412052533 0
+46C:\Full-stack dev\Full-stack\package-lock.json133471980826712534 0
+41C:\Full-stack dev\Full-stack\package.json133471981193566712 0
 64C:\Full-stack dev\Full-stack\node_modules\jquery\src\var\pnum.js133470251305901288 0
 68C:\Full-stack dev\Full-stack\node_modules\lightningcss\node\ast.d.ts133467777113967954 0
 49C:\Full-stack dev\Full-stack\node_modules\yallist133467777106670900 1
@@ -144,7 +144,7 @@
 39C:\Full-stack dev\Full-stack\_base.scss133455022001395059 0
 75C:\Full-stack dev\Full-stack\node_modules\caniuse-lite\data\features\ogv.js133467777136490886 0
 68C:\Full-stack dev\Full-stack\node_modules\source-map-js\CHANGELOG.md133467777112944754 0
-46C:\Full-stack dev\Full-stack\node_modules\@swc133470268411924581 1
+46C:\Full-stack dev\Full-stack\node_modules\@swc133471980825731980 1
 59C:\Full-stack dev\Full-stack\node_modules\parcel\lib\cli.js133467777106802988 0
 90C:\Full-stack dev\Full-stack\node_modules\css-select\node_modules\entities\lib\decode.d.ts133467777121222686 0
 73C:\Full-stack dev\Full-stack\node_modules\caniuse-lite\data\regions\US.js133467777139728772 0
@@ -201,7 +201,7 @@
 50C:\Full-stack dev\Full-stack\node_modules\anymatch133467783348746279 1
 101C:\Full-stack dev\Full-stack\node_modules\css-select\node_modules\domutils\lib\esm\stringify.d.ts.map133467777119022332 0
 55C:\Full-stack dev\Full-stack\node_modules\picomatch\lib133467777108886641 1
-49C:\Full-stack dev\Full-stack\node_modules\@parcel133470268411936756 1
+49C:\Full-stack dev\Full-stack\node_modules\@parcel133471980825731980 1
 95C:\Full-stack dev\Full-stack\node_modules\@parcel\optimizer-svgo\node_modules\csso\dist\csso.js133467777116413493 0
 58C:\Full-stack dev\Full-stack\node_modules\srcset\readme.md133467777106246189 0
 58C:\Full-stack dev\Full-stack\node_modules\async\groupBy.js133470268409202848 0
@@ -215,12 +215,12 @@
 70C:\Full-stack dev\Full-stack\node_modules\css-tree\lib\utils\string.js133467777129815381 0
 53C:\Full-stack dev\Full-stack\node_modules\ansi-styles133467777106733294 1
 65C:\Full-stack dev\Full-stack\node_modules\@parcel\reporter-tracer133467777106453884 1
-60C:\Full-stack dev\Full-stack\node_modules\.package-lock.json133470268413729648 0
+60C:\Full-stack dev\Full-stack\node_modules\.package-lock.json133471980827239892 0
 58C:\Full-stack dev\Full-stack\node_modules\svgo\lib\svgo.js133467777115375350 0
 70C:\Full-stack dev\Full-stack\node_modules\@parcel\cache\lib\FSCache.js133467777106596778 0
 59C:\Full-stack dev\Full-stack\node_modules\parcel\src\cli.js133467777107782448 0
 54C:\Full-stack dev\Full-stack\node_modules\entities\lib133467777116791637 1
-59C:\Full-stack dev\Full-stack\node_modules\@msgpackr-extract133470268411930661 1
+59C:\Full-stack dev\Full-stack\node_modules\@msgpackr-extract133471980825731980 1
 67C:\Full-stack dev\Full-stack\node_modules\@swc\helpers\cjs\_jsx.cjs133467777121119489 0
 64C:\Full-stack dev\Full-stack\node_modules\async\groupBySeries.js133470268409202848 0
 107C:\Full-stack dev\Full-stack\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeViewBox.js133467777121597374 0
@@ -231,7 +231,7 @@
 98C:\Full-stack dev\Full-stack\node_modules\css-select\node_modules\entities\lib\esm\decode.d.ts.map133467777117889846 0
 48C:\Full-stack dev\Full-stack\node_modules\@lezer133467777084161501 1
 84C:\Full-stack dev\Full-stack\node_modules\caniuse-lite\data\features\css3-tabsize.js133467777130145719 0
-47C:\Full-stack dev\Full-stack\node_modules\@lmdb133470268411936756 1
+47C:\Full-stack dev\Full-stack\node_modules\@lmdb133471980825731980 1
 126C:\Full-stack dev\Full-stack\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\pseudo-selectors\aliases.d.ts.map133467777113239761 0
 89C:\Full-stack dev\Full-stack\node_modules\@swc\helpers\esm\_initializer_warning_helper.js133467777126278601 0
 74C:\Full-stack dev\Full-stack\node_modules\update-browserslist-db\README.md133467777108440078 0
